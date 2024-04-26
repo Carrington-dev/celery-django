@@ -52,3 +52,36 @@ Extra notes on running celery on ubuntu and making sure it runs as a service
 ```bash
 https://www.digitalocean.com/community/questions/how-to-set-up-django-app-redis-celery-a06db780-5335-493e-8158-7128ea7d2cc1
 ```
+Extra notes on celery brokers
+
+```
+https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/index.html
+```
+
+## Celery Brokers
+
+1. Redis
+2. RabbitMQ
+```bash
+sudo apt-get install rabbitmq-server
+```
+More notes
+```bash
+docker run -d -p 5672:5672 rabbitmq
+```
+3. AmazonSQS etc
+```
+https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html#choosing-a-broker
+```
+
+## Notes links
+
+```bash
+https://www.geeksforgeeks.org/celery-integration-with-django/
+
+# more
+https://github.com/celery/celery/issues/2832
+
+#
+https://circumeo.io/blog/entry/working-with-multiple-celery-queues-in-django/
+```
