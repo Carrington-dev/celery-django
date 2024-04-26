@@ -47,3 +47,8 @@ celery -A proj worker -l INFO
 4. __Redis settings__
 5. __Celery files settings__
 6. __Celery tasks files__
+6. __Celery extra notes__
+Extra notes on running celery on ubuntu and making sure it runs as a service
+```bash
+https://www.digitalocean.com/community/questions/how-to-set-up-django-app-redis-celery-a06db780-5335-493e-8158-7128ea7d2cc1
+```
